@@ -1,3 +1,3 @@
 # helloworld
 my first repository :)
-:coffee:
+:coffee: :smile:
