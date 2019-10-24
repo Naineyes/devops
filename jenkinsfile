@@ -1,22 +1,3 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Plan') {
-            steps {
-                script {
-                    currentBuild.displayName = "${version}"
-                }
-                sh 'terraform init -input=false'
-            }
-        }
-        }
-
-        stage('Apply') {
-            steps {
-                sh "terraform apply -input=false tfplan"
-            }
-        }
-    }
+echo 'hello'
 
  
